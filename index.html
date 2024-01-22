@@ -53,21 +53,31 @@
             width: 100%;
             padding: 1%;
         }
-        a{
+
+        a {
             text-decoration: none;
         }
-        .content a{
+
+        .content a {
             color: black;
         }
-        .card{
+
+        .card {
             margin-bottom: 1%;
         }
-        .card-body{
-          padding-top: 0;
-          text-align: center;
+
+        .card-body {
+            padding-top: 0;
+            text-align: center;
         }
-        .content .card a{
-          color: #DAECF6;
+
+        .content .card a {
+            color: #DAECF6;
+        }
+
+        .custom-card-img {
+            height: 200px;
+            object-fit: cover;
         }
     </style>
 </head>
@@ -85,7 +95,7 @@
                     <li class="nav-item">
                         <a class="nav-link  hear" aria-current="page" href="./index.html">หน้าหลัก</a>
                     </li>
-        
+
                     <li class="nav-item">
                         <a class="nav-link" href="#">ติดต่อ</a>
                     </li>
@@ -99,40 +109,43 @@
             </div>
     </nav>
 
-    
-    
+
+
 
     <div class="content">
         <h3>แบบฝึกหัด</h3>
         <div class="row">
-          <div class="col-sm-6 mb-3 mb-sm-0">
-            <div class="card">
-              <img src="./img/work1.png" class="card-img-bottom" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">งานที่ 1 JQuery</h5>
-                <a href="./work1.html" class="btn btn-primary">Go to Work</a>
-              </div>
+            <div class="col-sm-6 mb-3 mb-sm-0">
+                <div class="card">
+                    <img class="card-img-top custom-card-img" src="./img/work1.png" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">งานที่ 1 JQuery</h5>
+                        <a href="./work1.html" class="btn btn-primary">Go to Work</a>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="card">
-              <img src="./img/work2.png" class="card-img-bottom" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">งานที่ 2 VR 360</h5>
-                <a href="./work2.html" class="btn btn-primary">Go to Work</a>
-              </div>
+            
+            <div class="col-sm-6">
+                <div class="card">
+                    <img class="card-img-top custom-card-img" src="./img/work2.png" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">งานที่ 2 VR 360</h5>
+                        <a href="./work2.html" class="btn btn-primary">Go to Work</a>
+                    </div>
+                </div>
             </div>
-          </div>
+            
 
-          <div class="col-sm-6">
-            <div class="card">
-              <img src="./img/work3.png" class="card-img-bottom" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">งานที่ 3 เกมจับคู่ภาพ โดยใช้ VueJS</h5>
-                <a href="./work3.html" class="btn btn-primary">Go to Work</a>
-              </div>
+            <div class="col-sm-6">
+                <div class="card">
+                    <img class="card-img-top custom-card-img" src="./img/work3.png" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">งานที่ 3 เกมจับคู่ภาพ โดยใช้ VueJS</h5>
+                        <a href="./work3.html" class="btn btn-primary">Go to Work</a>
+                    </div>
+                </div>
             </div>
-          </div>
+            
         </div>
     </div>
 

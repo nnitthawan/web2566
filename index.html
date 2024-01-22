@@ -48,10 +48,14 @@
         h3 {
             text-align: start;
         }
+        h5{
+            color: #3030ab;
+            
+        }
 
         .card img {
             width: 100%;
-            padding: 1%;
+            padding: 1.5%;
         }
 
         a {
@@ -63,7 +67,8 @@
         }
 
         .card {
-            margin-bottom: 1%;
+            margin-bottom: 2%;
+            background-color: #e7f1f7;
         }
 
         .card-body {
@@ -74,9 +79,23 @@
         .content .card a {
             color: #DAECF6;
         }
+        .btn{
+            background-color: #5E5EB4;
+        }
+        .find{
+            color: #DAECF6;
+            background-color: #5E5EB4;
+            border-radius: 10%;
+            border: none;
+        }
+        .find:hover{
+            background-color: #DAECF6;
+            color: #5E5EB4;
+            border: #5E5EB4 1px solid;
+        }
 
         .custom-card-img {
-            height: 200px;
+            height: 250px;
             object-fit: cover;
         }
     </style>
@@ -103,7 +122,7 @@
                 </ul>
                 <form class="d-flex" role="search">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
+                    <button class="find " type="submit">Search</button>
                 </form>
 
             </div>
@@ -115,37 +134,35 @@
     <div class="content">
         <h3>แบบฝึกหัด</h3>
         <div class="row">
-            <div class="col-sm-6 mb-3 mb-sm-0">
+            <div class="col-md-4">
                 <div class="card">
                     <img class="card-img-top custom-card-img" src="./img/work1.png" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">งานที่ 1 JQuery</h5>
-                        <a href="./work1.html" class="btn btn-primary">Go to Work</a>
+                        <a href="./work1.html" class="btn">Go to Work</a>
                     </div>
                 </div>
             </div>
-            
-            <div class="col-sm-6">
+        
+            <div class="col-md-4">
                 <div class="card">
                     <img class="card-img-top custom-card-img" src="./img/work2.png" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">งานที่ 2 VR 360</h5>
-                        <a href="./work2.html" class="btn btn-primary">Go to Work</a>
+                        <a href="./work2.html" class="btn">Go to Work</a>
                     </div>
                 </div>
             </div>
-            
-
-            <div class="col-sm-6">
+        
+            <div class="col-md-4">
                 <div class="card">
                     <img class="card-img-top custom-card-img" src="./img/work3.png" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">งานที่ 3 เกมจับคู่ภาพ โดยใช้ VueJS</h5>
-                        <a href="./work3.html" class="btn btn-primary">Go to Work</a>
+                        <a href="./work3.html" class="btn">Go to Work</a>
                     </div>
                 </div>
             </div>
-            
         </div>
     </div>
 
